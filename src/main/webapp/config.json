@@ -1,15 +1,22 @@
 {
-    "displayName": "NewPrefab",
-    "group": "",
-    "templateUrl": "/pages/Main/Main.html",
-    "controllerUrl": "/pages/Main/Main.js",
-    "variablesUrl": "/pages/Main/Main.variables.json",
-    "iconUrl": "/resources/images/imagelists/prefab-icon.png",
-    "resources": {
-        "styles": [
-            "/pages/Main/Main.css"
-        ],
-        "scripts": []
-    },
-    "properties": {}
+  "displayName" : "NewPrefab",
+  "group" : "",
+  "iconUrl" : "/resources/images/imagelists/prefab-icon.png",
+  "resources" : {
+    "styles" : [ "/pages/Main/Main.css" ],
+    "scripts" : [ ]
+  },
+  "properties" : {
+    "qqq" : {
+      "type" : "string",
+      "displayName" : "Qqq",
+      "description" : "aaa",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    }
+  },
+  "events" : { },
+  "methods" : { }
 }
